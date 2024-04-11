@@ -1,5 +1,5 @@
 {
-  "name": "my-qwik-site-with-visual-cms",
+  "name": "Test Site",
   "description": "Site integrated with Builder.io for visual editing",
   "engines": {
     "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
@@ -24,7 +24,8 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "lesgo": "npm run build && npm run deploy"
   },
   "devDependencies": {
     "@builder.io/dev-tools": "^0.0.7",
